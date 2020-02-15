@@ -83,6 +83,12 @@ int main (int argc, char *argv[])
         fprintf(fptr, "%f\n", (float) fftOutput[i]);
 
     }
+
+    fptr = fopen("inputData.txt", "w");
+    for (int i = 0; i < numSamples; i++) {
+        fprintf(fptr, "%f\n", (float) fftInput[i]);
+
+    }
     
     // free (samplesBuf);
     // showN("Data: ", fftInput, n);
