@@ -8,7 +8,7 @@ Usage:
   ./freq <audio_file>
 produces a txt data file.
 
-  ./plot.py <data_file>
+  python plot.py <data_file>
 will plot the results.
 
 freq uses the libsndfile library to read audio data. A number of common file formats are supported. See http://www.mega-nerd.com/libsndfile/ for a complete list.
