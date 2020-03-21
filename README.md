@@ -4,6 +4,7 @@ Analysis of frequency content in an audio file (spectral analysis).
 Uses Discrete Fourier Transform (using FFT) to convert sample data from time domain to frequency domain.
 
 Usage:
+  
   ./freq <audio_file>
 produces a txt data file.
 
